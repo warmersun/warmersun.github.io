@@ -13,6 +13,17 @@
 
 </head>
 <body>
+<div id="fb-root"></div>
+
+<!-- Facebook JSDK init -->
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=537131776419212&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <div class="container-fluid text-center" style="background:#000000 url(images/header.jpg) no-repeat bottom left; background-size: contain; width: 100%; height: 100%; height: auto !important; min-height: 100%">
 <h1 style="color:white">Warmer Sun <small>Teaching What We Don't Know. Seriously.</small></h1>
 </div>
@@ -22,7 +33,7 @@
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>    
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
   </ol>
 
   <!-- Wrapper for slides -->
@@ -35,7 +46,7 @@
     </div>
     <div class="item">
    		<h2 class="text-center">Material Over Method</h2>
-    </div>    
+    </div>
   </div>
 
   <!-- Controls -->
@@ -75,7 +86,7 @@
 				<img src="images/robot.png" class="img-responsive" alt="robot">
 				</div>
 				<div class="col-xs-4">
-				<img src="images/DNA.png" class="img-responsive" alt="DNA">		
+				<img src="images/DNA.png" class="img-responsive" alt="DNA">
 				</div>
 			</div>
 			<div class="row">
@@ -86,7 +97,7 @@
 				<img src="images/drone.png" class="img-responsive" alt="drone">
 				</div>
 				<div class="col-xs-4">
-				<img src="images/bigdata.png" class="img-responsive" alt="big data">		
+				<img src="images/bigdata.png" class="img-responsive" alt="big data">
 				</div>
 			</div>
 		</div>
@@ -102,7 +113,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="row">
 		<div class="col-md-12">
 			<div class="panel panel-primary">
@@ -122,95 +133,105 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6">
-			<div class="panel panel-primary">
-			<div class="panel-heading">
-			<h3 class="panel-title">Community</h3>
-			</div>
-			<div class="panel-body">
-			<img src="images/noun_82075_cc.svg" class="img-rounded" style="float:left">
-			<p>We are a community of educators, parents and students.</p>
-			<p>On our community <strong>forum</strong> we share ongoing projects, discuss ideas, teaching approaches, subjects.</p>
-			<p>Children who attend our workshops can join in and connect online in a safe and private environment.</p>
-			<p>Adults can easily join in with the Google+, Facebook or Twitter logins</p>
-			<div class="well well-sm">
-				<a href="http://community.warmersun.com"><strong>http://<mark>community</mark>.warmersun.com</strong></a>
-			</div>
-			<p><a class="btn btn-primary btn-lg" href="http://community.warmersun.com" role="button">Join Us!</a></p>
-			</div>
-			</div>
+			<!-- Facebook page embedded -->
+			<div class="fb-page" data-href="https://www.facebook.com/warmersun" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"></div>		
 		</div>
 		<div class="col-md-6">
-			<div class="panel panel-primary">
-			<div class="panel-heading">
-			<h3 class="panel-title">Online Courses</h3>		
+			<div class="row">
+			<div class="col-md-6">
+				<div class="panel panel-primary">
+				<div class="panel-heading">
+				<h3 class="panel-title">Community</h3>
+				</div>
+				<div class="panel-body">
+				<img src="images/noun_82075_cc.svg" class="img-rounded" style="float:left">
+				<p>We are a community of educators, parents and students.</p>
+				<p>On our community <strong>forum</strong> we share ongoing projects, discuss ideas, teaching approaches, subjects.</p>
+				<p>Children who attend our workshops can join in and connect online in a safe and private environment.</p>
+				<p>Adults can easily join in with the Google+, Facebook or Twitter logins</p>
+				<div class="well well-sm">
+					<a href="http://community.warmersun.com"><strong>http://<mark>community</mark>.warmersun.com</strong></a>
+				</div>
+				<p><a class="btn btn-primary btn-lg" href="http://community.warmersun.com" role="button">Join Us!</a></p>
+				</div>
+				</div>
 			</div>
-			<div class="panel-body">
-			<img src="images/noun_27465.svg" class="img-rounded" style="float:left; padding-right:15px">
-			<p>We provide online courses for parents, teachers, educators who want to teach children emerging technologies and are wondering how they can do that. We  <strong>train the trainer</strong>.</p>
-			<p>You will also have plenty of opportunities to engage, share your experiences and help shape the course to capture the collective bets practices.</p>
-			<p>Among the course assets you will find the lesson plans and support materials that you need to organize your own workshops.</p>
-			<div class="well well-sm"><a href="http://edx.warmersun.com"><strong>http://<mark>edx</mark>.warmersun.com</strong></a></div>
-			<p><a class="btn btn-primary btn-lg" href="http://edx.warmersun.com" role="button">Learn How To Run Workshops!</a></p>
-			<p>If you would like to go deeper and contribute to the course itself then check out </p>
-			<div class="well well-sm"><a href="http://studio.warmersun.com"><strong>http://<mark>studio</mark>.warmersun.com</strong></a></div>
-			<p>Our online courses are built on the <a href="http://code.edx.org/">open edX</a> platform. This allows us to use the same technology that is powering massively open online courses from Stanford University, Google, MIT, The University of Queensland, Tsinghua University, UC Berkeley, and Harvard University and hundreds of others.</p>
-			<a href="http://openedx.org"><img src="https://files.edx.org/openedx-logos/edx-openedx-logo-tag.png" width="150" height="50" alt="Powered by Open edX" /></a>
+			<div class="col-md-6">
+				<div class="panel panel-primary">
+				<div class="panel-heading">
+				<h3 class="panel-title">Online Courses</h3>
+				</div>
+				<div class="panel-body">
+				<img src="images/noun_27465.svg" class="img-rounded" style="float:left; padding-right:15px">
+				<p>We provide online courses for parents, teachers, educators who want to teach children emerging technologies and are wondering how they can do that. We  <strong>train the trainer</strong>.</p>
+				<p>You will also have plenty of opportunities to engage, share your experiences and help shape the course to capture the collective bets practices.</p>
+				<p>Among the course assets you will find the lesson plans and support materials that you need to organize your own workshops.</p>
+				<div class="well well-sm"><a href="http://edx.warmersun.com"><strong>http://<mark>edx</mark>.warmersun.com</strong></a></div>
+				<p><a class="btn btn-primary btn-lg" href="http://edx.warmersun.com" role="button">Learn How To Run Workshops!</a></p>
+				<p>If you would like to go deeper and contribute to the course itself then check out </p>
+				<div class="well well-sm"><a href="http://studio.warmersun.com"><strong>http://<mark>studio</mark>.warmersun.com</strong></a></div>
+				<p>Our online courses are built on the <a href="http://code.edx.org/">open edX</a> platform. This allows us to use the same technology that is powering massively open online courses from Stanford University, Google, MIT, The University of Queensland, Tsinghua University, UC Berkeley, and Harvard University and hundreds of others.</p>
+				<a href="http://openedx.org"><img src="https://files.edx.org/openedx-logos/edx-openedx-logo-tag.png" width="150" height="50" alt="Powered by Open edX" /></a>
+			</div>
+			</div>
 		</div>
+		</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="panel panel-primary">
+					<div class="panel-heading">
+					<h3 class="panel-title">Workshops</h3>
+					</div>
+					<div class="panel-body">
+					<img src="images/noun_4389.svg" class="img-rounded" style="float:left; padding-right:15px">
+					<p>We run after-school programs for kids in and around Vancouver.</p>
+					</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="panel panel-primary">
+					<div class="panel-heading">
+					<h3 class="panel-title">About</h3>
+					</div>
+					<div class="panel-body">
+					<img src="images/tamas.simon.jpg" class="img-circle" style="float:left; height:80px; padding-right:15px">
+					<p>Warmer Sun was founded in 2013 by Tamas Simon (Sic). He <strong><mark>blogs</mark></strong> on Medium.com where he writes about workshops, books, thoughts, ideas...</p>
+					<p><a href="https://medium.com/@warmersun">@WarmerSun on Medium</a></p>
+					<br>
+					<p>The name comes from the King:</p>
+					<blockquote>
+					<p>If I can dream of a <strong>warmer sun</strong><br>Where hope keeps shining on everyone</p>
+					<footer>Elvis <cite title="If I Can Dream"><a href="http://youtu.be/v98habAoYkM">If I Can Dream</a></cite></footer>
+					</blockquote>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="panel panel-info">
+					<div class="panel-heading">
+					<h3 class="panel-title">Attributions</h3>
+					</div>
+					<div class="panel-body">
+					<p>All images are from the <a href="https://thenounproject.com">Noun Project</a></p>
+					<ul>
+					<li>3D Printer - Andrew Cameron</li>
+					<li>Robot - Simon Child</li>
+					<li>DNA - Darrin Higgins</li>
+					<li>AI - Dan Hetteix</li>
+					<li>drone - Julia Strejan</li>
+					<li>big data - Jorgen Bovolden</li>
+					<li>exponential - Rhys Dezsery</li>
+					</ul>
+					</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
-	</div>
-	<div class="row">
-		<div class="col-md-6">
-			<div class="panel panel-primary">
-			<div class="panel-heading">
-			<h3 class="panel-title">Workshops</h3>		
-			</div>
-			<div class="panel-body">
-			<img src="images/noun_4389.svg" class="img-rounded" style="float:left; padding-right:15px">
-			<p>We run after-school programs for kids in and around Vancouver.</p>
-			</div>
-			</div>
-		</div>
-		<div class="col-md-6">
-			<div class="panel panel-primary">
-			<div class="panel-heading">
-			<h3 class="panel-title">About</h3>		
-			</div>
-			<div class="panel-body">
-			<img src="images/tamas.simon.jpg" class="img-circle" style="float:left; height:80px; padding-right:15px">
-			<p>Warmer Sun was founded in 2013 by Tamas Simon (Sic). He <strong><mark>blogs</mark></strong> on Medium.com where he writes about workshops, books, thoughts, ideas...</p>
-			<p><a href="https://medium.com/@warmersun">@WarmerSun on Medium</a></p>
-			<br>
-			<p>The name comes from the King:</p>
-			<blockquote>
-			<p>If I can dream of a <strong>warmer sun</strong><br>Where hope keeps shining on everyone</p>
-			<footer>Elvis <cite title="If I Can Dream"><a href="http://youtu.be/v98habAoYkM">If I Can Dream</a></cite></footer>
-			</blockquote>
-			</div>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-12">
-			<div class="panel panel-info">
-			<div class="panel-heading">
-			<h3 class="panel-title">Attributions</h3>		
-			</div>
-			<div class="panel-body">
-			<p>All images are from the <a href="https://thenounproject.com">Noun Project</a></p>
-			<ul>
-			<li>3D Printer - Andrew Cameron</li>
-			<li>Robot - Simon Child</li>
-			<li>DNA - Darrin Higgins</li>
-			<li>AI - Dan Hetteix</li>
-			<li>drone - Julia Strejan</li>
-			<li>big data - Jorgen Bovolden</li>
-			<li>exponential - Rhys Dezsery</li>
-			</ul>
-			</div>
-			</div>
-		</div>
-	</div>
+	
+	
 
 <!-- footer, with Facebook and Google+ -->
 	<footer class="footer">
@@ -218,7 +239,7 @@
 		<div class="row">
 			<div class="col-md-3">
 				<a href="https://facebook.com/warmersun"><img src="images/FB-f-Logo__blue_50.png" style="padding-right:15px">warmersun</a>
-			</div> 
+			</div>
 			<div class="col-md-3">
 				<a href="https://plus.google.com/+WarmerSunVancouver"><img src="images/g+48.png" style="padding-right:15px">+WarmerSunVancouver</a>
 			</div>
@@ -231,7 +252,7 @@
 		</div>
       </div>
     </footer>
-    
+
 </div>
 
 
