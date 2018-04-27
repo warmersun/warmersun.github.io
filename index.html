@@ -1,252 +1,66 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="bootstrap-dist/css/bootstrap.min.css">
+    <title>Bootstrap 4, from LayoutIt!</title>
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="bootstrap-dist/css/bootstrap-theme.min.css">
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
 
-</head>
-<body>
-<div id="fb-root"></div>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
-<!-- Facebook JSDK init -->
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=537131776419212&version=v2.3";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+  </head>
+  <body>
 
-<div class="container-fluid text-center" style="background:#000000 url(images/header.jpg) no-repeat bottom left; background-size: contain; width: 100%; height: 100%; height: auto !important; min-height: 100%">
-<h1 style="color:white">Warmer Sun <small>Teaching What We Don't Know. Seriously.</small></h1>
-</div>
-
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-    	<h2 class="text-center">Learn. Unlearn. Relearn.</h2>
-    </div>
-    <div class="item">
-   		<h2 class="text-center">Futureproof Your Education</h2>
-    </div>
-    <div class="item">
-   		<h2 class="text-center">Material Over Method</h2>
-    </div>
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-<div class="jumbotron">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-2">
-				<img src="images/makerspace.png" class="img-responsive" alt="makerspace">
-			</div>
-			<div class="col-md-10">
-				<p><strong>Free lesson plans</strong> for teachers, educators, parents, makers who want to run workshops <mark>just like we do</mark>.</p>
-				<a class="btn btn-primary btn-lg" href="http://warmersun.strikingly.com" role="button">Learn more about our workshops</a>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-2">
-			<img src="images/exponential.png" class="img-responsive" alt="exponential">
-		</div>
-		<div class="col-md-4">
-			<blockquote>
-			<p>Our intuition about the future is <mark>linear</mark>. But the reality of information technology is <mark><strong>exponential</strong></mark>, and that makes a profound difference.<br>If I take 30 steps linearly, I get to 30. If I take 30 steps exponentially, I get to a billion.</p>
-			<footer>Ray Kurzweil</footer>
-			</blockquote>
-		</div>
-		<div class="col-md-6">
-			<div class="row">
-				<div class="col-xs-4">
-				<img src="images/3D_printer.png" class="img-responsive" alt="3D Printing">
-				</div>
-				<div class="col-xs-4">
-				<img src="images/robot.png" class="img-responsive" alt="robot">
-				</div>
-				<div class="col-xs-4">
-				<img src="images/DNA.png" class="img-responsive" alt="DNA">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-4">
-				<img src="images/AI.png" class="img-responsive" alt="AI">
-				</div>
-				<div class="col-xs-4">
-				<img src="images/drone.png" class="img-responsive" alt="drone">
-				</div>
-				<div class="col-xs-4">
-				<img src="images/bigdata.png" class="img-responsive" alt="big data">
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="container-fluid">
+    <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
-			<div class="panel panel-primary">
-				<div class="panel-heading">
-				<h3 class="panel-title">What we do</h3>
-			</div>
-				<div class="panel-body">
-				<p>We run <mark>after school</mark> workshops for elementary school aged kids where we introduce them emerging technologies. Each workshop leads the children through the steps of the <mark>design thinking</mark> process.<br>
-				<p>We then take the lesson plans of these workshops and share it with the our community of education enthusiasts.</p>
-				<p>Parents, teachers, makers, educators can learn how to run these in their own local communities.</p>
-				<p>Our workshop materials are free even for <strong>commercial use.</strong> That means if you want to run a similar workshop in your school, make space or community center then you are welcome to do so! Of course we are happy to assist you along the way.</p>
-				<br>
-				<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Warmer Sun Lesson Plan</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://warmersun.com" property="cc:attributionName" rel="cc:attributionURL">Tamas Simon (Sic)</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-			</div>
+			<div class="page-header">
+				<h1>
+					Warmer Sun Education <small>Exponential Parenting Community</small>
+				</h1>
 			</div>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-6">
-			<!-- Facebook page embedded -->
-			<div class="fb-page" data-href="https://www.facebook.com/warmersun" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"></div>		
-		</div>
-		<div class="col-md-6">
-		<!-- Medium -->
-		<script async src="https://static.medium.com/embed.js"></script><a class="m-profile" href="https://medium.com/@warmersun">Warmer Sun</a>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="col-md-6">
-			<div class="panel panel-primary">
-				<div class="panel-heading">
-				<h3 class="panel-title">Community</h3>
-				</div>
-				<div class="panel-body">
-					<img src="images/noun_82075_cc.svg" class="img-rounded" style="float:left">
-					<p>We are a community of educators, parents and students.</p>
-					<p>On our community <strong>forum</strong> we share ongoing projects, discuss ideas, teaching approaches, subjects.</p>
-					<p>Children who attend our workshops can join in and connect online in a safe and private environment.</p>
-					<p>Adults can easily join in with the Google+, Facebook or Twitter logins</p>
-					<div class="well well-sm">
-						<a href="http://community.warmersun.com"><strong>http://<mark>community</mark>.warmersun.com</strong></a>
-					</div>
-					<p><a class="btn btn-primary btn-lg" href="http://community.warmersun.com" role="button">Join Us!</a></p>
-				</div>
-			</div>				
-		</div>
-		<div class="col-md-6">
-			<div class="panel panel-primary">
-				<div class="panel-heading">
-					<h3 class="panel-title">Online Courses</h3>
-				</div>
-				<div class="panel-body">
-					<img src="images/noun_27465.svg" class="img-rounded" style="float:left; padding-right:15px">
-					<p>We provide online courses for parents, teachers, educators who want to teach children emerging technologies and are wondering how they can do that. We  <strong>train the trainer</strong>.</p>
-					<p>You will also have plenty of opportunities to engage, share your experiences and help shape the course to capture the collective bets practices.</p>
-					<p>Among the course assets you will find the lesson plans and support materials that you need to organize your own workshops.</p>
-					<div class="well well-sm"><a href="http://edx.warmersun.com"><strong>http://<mark>edx</mark>.warmersun.com</strong></a></div>
-					<p><a class="btn btn-primary btn-lg" href="http://edx.warmersun.com" role="button">Learn How To Run Workshops!</a></p>
-					<p>If you would like to go deeper and contribute to the course itself then check out </p>
-					<div class="well well-sm"><a href="http://studio.warmersun.com"><strong>http://<mark>studio</mark>.warmersun.com</strong></a></div>
-					<p>Our online courses are built on the <a href="http://code.edx.org/">open edX</a> platform. This allows us to use the same technology that is powering massively open online courses from Stanford University, Google, MIT, The University of Queensland, Tsinghua University, UC Berkeley, and Harvard University and hundreds of others.</p>
-					<a href="http://openedx.org"><img src="https://files.edx.org/openedx-logos/edx-openedx-logo-tag.png" width="150" height="50" alt="Powered by Open edX" /></a>
-				</div>
+		<div class="col-md-5">
+			<div class="jumbotron">
+				<h2>
+					This program is experimental.
+				</h2>
+				<p>
+					 There is no upfront cost to join an try. Nobody has figured out how to teach concepts like AI or blockchain to K12 kids. We will.<br/>
+					 If you like the programs then please visit our crowd-funding page on Patreon.
+				</p>
+				<p>
+					<a class="btn btn-primary btn-large" href="https://patreon.com/ExponentialParenting">Support Us!</a>
+				</p>
 			</div>
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-6">
-			<div class="panel panel-info">
-				<div class="panel-heading">
-					<h3 class="panel-title">Attributions</h3>
-				</div>
-				<div class="panel-body">
-					<p>All images are from the <a href="https://thenounproject.com">Noun Project</a></p>
-					<ul>
-					<li>3D Printer - Andrew Cameron</li>
-					<li>Robot - Simon Child</li>
-					<li>DNA - Darrin Higgins</li>
-					<li>AI - Dan Hetteix</li>
-					<li>drone - Julia Strejan</li>
-					<li>big data - Jorgen Bovolden</li>
-					<li>exponential - Rhys Dezsery</li>
-					</ul>
-				</div>
-			</div>
+		<div class="col-md-2">
 		</div>
-		<div class="col-md-6">
-			<div class="panel panel-primary">
-			<div class="panel-heading">
-			<h3 class="panel-title">About</h3>
-			</div>
-			<div class="panel-body">
-			<img src="images/tamas.simon.jpg" class="img-circle" style="float:left; height:80px; padding-right:15px">
-			<p>Warmer Sun was founded in 2013 by Tamas Simon (Sic). He <strong><mark>blogs</mark></strong> on Medium.com where he writes about workshops, books, thoughts, ideas...</p>
-			<p><a href="https://medium.com/@warmersun">@WarmerSun on Medium</a></p>
-			<br>
-			<p>The name comes from the King:</p>
-			<blockquote>
-			<p>If I can dream of a <strong>warmer sun</strong><br>Where hope keeps shining on everyone</p>
-			<footer>Elvis <cite title="If I Can Dream"><a href="http://youtu.be/v98habAoYkM">If I Can Dream</a></cite></footer>
-			</blockquote>
-			</div>
+		<div class="col-md-5">
+			<div class="jumbotron">
+				<h2>
+					Parents and educators
+				</h2>
+				<p>
+					Join the conversation in our online community!
+				</p>
+				<p>
+					<a class="btn btn-primary btn-large" href="#">Learn more</a>
+				</p>
 			</div>
 		</div>
 	</div>
 </div>
 
-<!-- footer, with Facebook and Google+ -->
-	<footer class="footer">
-      <div class="container-fluid well">
-		<div class="row">
-			<div class="col-md-3">
-				<a href="https://facebook.com/warmersun"><img src="images/FB-f-Logo__blue_50.png" style="padding-right:15px">warmersun</a>
-			</div>
-			<div class="col-md-3">
-				<a href="https://plus.google.com/+WarmerSunVancouver"><img src="images/g+48.png" style="padding-right:15px">+WarmerSunVancouver</a>
-			</div>
-			<div class="col-md-3">
-				<a href="https://medium.com/@warmersun"><img src="images/Medium.jpeg" style="padding-right:15px">@WarmerSun</a>
-			</div>
-			<div class="col-md-3">
-				<img src="images/canadian_flag.jpg" class="img-responsive" alt="Canadian Flag">Proudly Canadian
-			</div>
-		</div>
-      </div>
-    </footer>
-
-</div>
-
-
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="bootstrap-dist/js/jquery-2.1.3.min.js"></script>
-<script src="bootstrap-dist/js/bootstrap.min.js"></script>
-</body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
