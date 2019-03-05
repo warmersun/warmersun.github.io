@@ -1,7 +1,5 @@
 ---
 layout: page
-title: Hello
-permalink: /hello/
 ---
 
 It all started when I read Ray Kurzweil’s book a the Singularity Is Near.

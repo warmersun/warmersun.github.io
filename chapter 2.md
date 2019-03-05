@@ -1,7 +1,5 @@
 ---
 layout: page
-title: Hello
-permalink: /hello/
 ---
 
 Let’s try and understand exponential growth a bit better.

@@ -1,8 +1,6 @@
 Asking the right questions
 ---
 layout: page
-title: Hello
-permalink: /hello/
 ---
 
 * Diamandis: in an era when you can have all the answers (from Google) it’s the questions you ask that matter
