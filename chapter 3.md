@@ -1,4 +1,10 @@
-Convergence 
+---
+layout: page
+title: Hello
+permalink: /hello/
+---
+
+Convergence
 
 My generation witnessed the tipping point of two emerging technologies: computing and networks.
 It’s interesting to look back at how deceptive this was.
@@ -8,4 +14,3 @@ Even the two greatest pioneers of personal computing played down th potential of
 ```
 
 Mosaic browser was launched in 1993. Gates’ paper started the browser wars , MS was clearly playing catch-up.
-

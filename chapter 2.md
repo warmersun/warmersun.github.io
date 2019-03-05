@@ -1,3 +1,9 @@
+---
+layout: page
+title: Hello
+permalink: /hello/
+---
+
 Let’s try and understand exponential growth a bit better.
 
 You might have heard the story of the inventor of chess. Folklore says the king , the maharajah invited him to his palace because he joyed the game very much and wanted to reward its inventor. So he asked him what kind of present he wishes.
@@ -24,14 +30,14 @@ Exponential growth is very confusing and counter intuitive looking at it from th
 Let’s say there is a lake bed, filling up with water.
 If we route a canal into the lake and open the floodgates - or dam - if water is at 10% after a week then is will be at 20% after two weeks and it will take 10 weeks to fill up.
 Now imagine there is a bacteria in the lake tinting the water green. For argument’s sake let’s say The bacterial growth is such that it doubles every week... and let’s count backwards.
-The week before the lake is full with bacteria it’s only halfway contaminated. And a week prior to that only a quarter. Three weeks before it’s 1/8, 
+The week before the lake is full with bacteria it’s only halfway contaminated. And a week prior to that only a quarter. Three weeks before it’s 1/8,
 Just six weeks earlier there is only 1% bacteria in the lake. See why this is hard to anticipate?
 
-Slow exponential growth is sublinear 
+Slow exponential growth is sublinear
 
 In other words it seems very very slow, the growth curve is practically flatlining for a long time and even “regular” aka liner growth seems desirably better.
 
-TBD drawing 
+TBD drawing
 
 The point was s, if growth is really exponential then sooner or later there is always a tipping point and then, when the accelerated returns or compound interest starts to pay off it shoots out.
 Of course if you have 100$ in the bank at 1% interest rate it matters if you opened the account or your great grandparents. It makes a huge difference.
@@ -39,14 +45,9 @@ Of course if you have 100$ in the bank at 1% interest rate it matters if you ope
 When it comes to technologies we call this tipping point going from deceptive to destructive.
 Technologies that seems to suddenly skyrocket all went through a long deceptive growth period where progress was so slow it seems as though we would never have anything other than some academic papers maybe.
 
-VR 
+VR
 worlds first head mounted display 1960
 3D printing sequenced - bacterial - genome 1977
 You get the point. None of this is new. What’s new is that they have tipped over.
 
 So Kurzweil asks if these technologies have been growing and exponentially, we know their growth rate and we know the common characteristics of all exponential curves, the so called hockey sticks... what can we expect?
-
-
- 
-
-

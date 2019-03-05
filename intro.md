@@ -1,3 +1,9 @@
+---
+layout: page
+title: Hello
+permalink: /hello/
+---
+
 It all started when I read Ray Kurzweil’s book a the Singularity Is Near.
 Ray mâles predictions about the future which if true mean profound changes to technology, society and everyday life in general.
 Then I started paying attention and learning about the technological singularity from various thought leaders. So far I don’t see any sign that their reasoning is wrong.
