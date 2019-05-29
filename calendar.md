@@ -1,3 +1,8 @@
+---
+layout: page
+title: calendar
+---
+
 <div data-tockify-component="calendar" data-tockify-calendar="tamas.simon">
 </div>
 <script data-cfasync="false"
