@@ -120,13 +120,8 @@ Teams show their creations with *storytelling* . The opposing team provides feed
 Each player has an impact badge she can award to someone. This again carries on to subsequent games.
 the layer with the most impact badges awarded - i.e. with the most votes - wins.
 
+
 # License
 
-<a rel=“license” href=“http://creativecommons.org/licenses/by-nc-sa/4.0/“>
- <img alt=“Creative Commons License” style=“border-width:0” src=“https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png” /></a><br />
-<span xmlns:dct=“http://purl.org/dc/terms/“ href=“http://purl.org/dc/dcmitype/Text” property=“dct:title” rel=“dct:type”>Learn to Invent Game</span> by 
-<a xmlns:cc=“http://creativecommons.org/ns#” href=“https://www.warmersun.com” property=“cc:attributionName” rel=“cc:attributionURL”>Warmer Sun Education</a> is licensed under a <a rel=“license” href=“http://creativecommons.org/licenses/by-nc-sa/4.0/“>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br />
-Based on a work at 
-<a xmlns:dct=“http://purl.org/dc/terms/“ href=“https://warmersun.com/game” rel=“dct:source”>https://www.warmersun.com/game</a>.<br />
-Permissions beyond the scope of this license may be available at <a xmlns:cc=“http://creativecommons.org/ns#” href=“https://warmersun.com/gamepermission” rel=“cc:morePermissions”>https://www.warmersun.com/gamepermission</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Learn to Invent Game</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.warmersun.com" property="cc:attributionName" rel="cc:attributionURL">Warmer Sun Education</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://warmersun.com/game" rel="dct:source">https://www.warmersun.com/game</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="https://warmersun.com/gamepermission" rel="cc:morePermissions">https://www.warmersun.com/gamepermission</a>.
 
