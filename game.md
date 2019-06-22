@@ -1,4 +1,4 @@
-The game
+Learn to Invent Game
 
 # Objective
 
@@ -11,7 +11,7 @@ Who wins? Biggest *impact*, determined by voting at the end of the game. Eqch pl
 
 ## Game between games
 
-Players carry are rewarded for their advancements: they carry on their impact from game to game and are incentivised to follow the subjects.
+Players carry are rewarded for their advancements: they carry on their impact from game to game and are incentivized to follow the subjects.
 
 # Setup - What’s needed
 
@@ -29,7 +29,7 @@ Players carry are rewarded for their advancements: they carry on their impact fr
 
 ## Facilitator
 
-The fcilitator, usually the adult, is responsible for preparing and setting up the game. H or she also leads players through the game phases and makes sure the different activities are timeboxed. The facilitator can also join in the game as a player.
+The facilitator, usually the adult, is responsible for preparing and setting up the game. H or she also leads players through the game phases and makes sure the different activities are timeboxed. The facilitator can also join in the game as a player.
 
 # Gameplay
 
@@ -66,7 +66,7 @@ Group related, similar ideas together
 ## Timing is everything
 
 Players are reminded by the facilitator that more than anything else, what determines if a company will succeed in implementing an idea is timing.
-Does it intercept the the exponential growth curve at the right time?
+Does it intercept the exponential growth curve at the right time?
 Is it too early or too late?
 
 Players will bet on their ability to level up the technology needed for their implementation.
