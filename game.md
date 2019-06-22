@@ -1,3 +1,6 @@
+---
+title: Learn to Invent Game
+---
 Learn to Invent Game
 
 # Objective
