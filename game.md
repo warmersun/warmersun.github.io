@@ -72,7 +72,14 @@ Players are reminded by the facilitator that more than anything else, what deter
 Does it intercept the exponential growth curve at the right time?
 Is it too early or too late?
 
-Players will bet on their ability to level up the technology needed for their implementation.
+### Bet on the ability to build the required capabilities in time
+
+Players will *bet* on their ability to level up the technology needed for their implementation.
+Players who win their bet and are able to level up their capabilities to convincingly be able to implement the selected invention win impact badges.
+Those who fail to convince opponents will have to pick a feasible idea instead.
+
+## Leveling up
+
 Everyone starts from present day’s level of capabilities.
 
 Level up in different technologies
